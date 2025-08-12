@@ -131,13 +131,14 @@ row: combo
 row: datepicker, timepicker
 row: slider
 row: textarea
-row: submit button`,
-        "name, email, message textarea, submit button",
+row: cancel and submit buttons`,
+        `name, email, message textarea, submit button`,
         `row 1: input, selectbox
 row 2: datepicker, colorpicker`,
         `fieldset: input, datepicker
 fieldset: input, avatar, combo, slider, datepicker, timepicker, colorpicker, select, textarea, simple vault, text block, radio group, checkbox group, toggle, toggle group
 row: save button`,
+        `membership application form`,
     ];
     promptSuggestions.forEach(promptText => {
         const pill = document.createElement('button');
